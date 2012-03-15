@@ -14,3 +14,10 @@ How did I create a new repository at GitHub?
 7) git remote add origin git@github.com:tlheen/unit-testing-workshop
 8) git push -u origin master
 
+How did I create a new Maven project?
+1) mvn archetype:generate
+
+How did I set ut project in Eclipse?
+1) Import project as Git-project by EGit
+2) Convert project to maven-project
+3) Add dependencies for JUnit 4, Mockito, Hamcrest and Fest-assert
