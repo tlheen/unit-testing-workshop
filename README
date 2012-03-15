@@ -1,0 +1,16 @@
+Step by step - how to
+
+Pre steps:
+1) git config --global user.name "Terje Heen"
+2) git config --global user.email. terje.lheen@gmail.com
+
+How did I create a new repository at GitHub?
+1) mkdir unit-testing-workshop
+2) cd unit-testing-workshop
+3) git init
+4) touch README
+5) git add README
+6) git commit -m 'first commit'
+7) git remote add origin git@github.com:tlheen/unit-testing-workshop
+8) git push -u origin master
+
